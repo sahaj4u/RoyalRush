@@ -1,0 +1,39 @@
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Pp]ackages/packages-lock.json
+[Pp]ackageCache/
+UserSettings/
+MemoryCaptures/
+
+# Visual Studio
+.vscode/
+*.csproj
+*.sln
+*.user
+*.unityproj
+
+# OS files
+.DS_Store
+Thumbs.db[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Pp]ackages/packages-lock.json
+[Pp]ackageCache/
+UserSettings/
+MemoryCaptures/
+
+# Visual Studio
+.vscode/
+*.csproj
+*.sln
+*.user
+*.unityproj
+
+# OS files
+.DS_Store
+Thumbs.db
