@@ -43,4 +43,9 @@ public class GameManager : MonoBehaviour
         gameoverTXT.SetActive(true);
         Time.timeScale = 0.1f;
     }
+
+    public void AddTime(float time)
+    {
+        timeleft += time;
+    }
 }

@@ -74,20 +74,33 @@ public class LevelGenerator : MonoBehaviour
     }
      void SpawnChunk()
     {
-        ChunksSpawned ++;
-        float spawnPositionZ = CalculateSpawnPostitionZ();
 
+        float spawnPositionZ = CalculateSpawnPostitionZ();
         Vector3 chunkSpawnPos = new Vector3(transform.position.x, transform.position.y, spawnPositionZ);
-        
-        GameObject chunkToSpawn = chunkPrefabs[Random.Range(0,chunkPrefabs.Length)];
-        if(ChunksSpawned % CheckpointFrequency == 0) { chunkToSpawn = CheckpointChunk; }
+        GameObject chunkToSpawn = ChooseChunkToSpawn();
         GameObject newChunkGO = Instantiate(chunkToSpawn, chunkSpawnPos, Quaternion.identity, chunkParent);
 
         chunks.Add(newChunkGO);
         Chunk newChunk = newChunkGO.GetComponent<Chunk>();
         newChunk.Init(this, scoreManager);
+        ChunksSpawned++;
     }
-    
+
+      GameObject ChooseChunkToSpawn()
+    {
+        GameObject chunkToSpawn;
+
+        if (ChunksSpawned % CheckpointFrequency == 0)
+        {
+            chunkToSpawn = CheckpointChunk;
+        }
+        else
+        {
+            chunkToSpawn = chunkPrefabs[Random.Range(0, chunkPrefabs.Length)];
+        }
+
+        return chunkToSpawn;
+    }
 
     float CalculateSpawnPostitionZ()
     {
