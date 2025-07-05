@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '6000.0/staging' branch; Version is '6000.0.42f1 (feb9a7235030) revision 16693671'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16318 MB
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 64949 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -15,7 +15,7 @@ D:/Unity projects/Royal Rush
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52792
+49966
 -job-worker-count
 7
 -background-job-worker-count
@@ -59,12 +59,12 @@ D:/Unity projects/Royal Rush
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [15692]  Target information:
+Player connection [2452]  Target information:
 
-Player connection [15692]  * "[IP] 192.168.5.186 [Port] 0 [Flags] 2 [Guid] 700701962 [EditorId] 700701962 [Version] 1048832 [Id] WindowsEditor(7,User) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [2452]  * "[IP] 192.168.5.46 [Port] 0 [Flags] 2 [Guid] 3317505199 [EditorId] 3317505199 [Version] 1048832 [Id] WindowsEditor(7,User) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [15692] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [15692] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [2452] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [2452] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -76,8 +76,8 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 6.08 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.88 ms.
+Refreshing native plugins compatible for Editor in 7.67 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 1.04 ms.
 Initialize engine version: 6000.0.42f1 (feb9a7235030)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Unity projects/Royal Rush/Assets
@@ -92,49 +92,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.008758 seconds.
-- Loaded All Assemblies, in  0.564 seconds
+Registered in 0.010403 seconds.
+- Loaded All Assemblies, in  0.596 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.403 seconds
-Domain Reload Profiling: 961ms
-	BeginReloadAssembly (208ms)
+- Finished resetting the current domain, in  0.474 seconds
+Domain Reload Profiling: 1066ms
+	BeginReloadAssembly (220ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (54ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (63ms)
-	LoadAllAssembliesAndSetupDomain (219ms)
-		LoadAssemblies (204ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (236ms)
+		LoadAssemblies (215ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (214ms)
-			TypeCache.Refresh (212ms)
-				TypeCache.ScanAssembly (192ms)
+		AnalyzeDomain (230ms)
+			TypeCache.Refresh (228ms)
+				TypeCache.ScanAssembly (208ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (403ms)
+	FinalizeReload (475ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (367ms)
+		SetupLoadedEditorAssemblies (437ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (91ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (60ms)
-			ProcessInitializeOnLoadAttributes (146ms)
-			ProcessInitializeOnLoadMethodAttributes (66ms)
+			InitializePlatformSupportModulesInManaged (105ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (165ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -146,11 +146,11 @@ Import Worker Mode flag is 0x00
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.071 seconds
+- Loaded All Assemblies, in  1.118 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 4.37 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 4.06 ms, found 9 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
@@ -164,276 +164,252 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.914 seconds
-Domain Reload Profiling: 1981ms
-	BeginReloadAssembly (221ms)
+- Finished resetting the current domain, in  0.954 seconds
+Domain Reload Profiling: 2065ms
+	BeginReloadAssembly (210ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (46ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (741ms)
-		LoadAssemblies (528ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (793ms)
+		LoadAssemblies (512ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (350ms)
-			TypeCache.Refresh (267ms)
-				TypeCache.ScanAssembly (243ms)
-			BuildScriptInfoCaches (67ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (914ms)
+		AnalyzeDomain (403ms)
+			TypeCache.Refresh (303ms)
+				TypeCache.ScanAssembly (277ms)
+			BuildScriptInfoCaches (79ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (955ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (675ms)
+		SetupLoadedEditorAssemblies (685ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
+			InitializePlatformSupportModulesInManaged (20ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (116ms)
-			ProcessInitializeOnLoadAttributes (422ms)
-			ProcessInitializeOnLoadMethodAttributes (108ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			BeforeProcessingInitializeOnLoad (122ms)
+			ProcessInitializeOnLoadAttributes (416ms)
+			ProcessInitializeOnLoadMethodAttributes (112ms)
+			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 5.25 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 232 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6932 unused Assets / (7.8 MB). Loaded Objects now: 7609.
-Memory consumption went from 182.3 MB to 174.5 MB.
-Total: 16.101100 ms (FindLiveObjects: 1.164600 ms CreateObjectMapping: 0.792900 ms MarkObjects: 8.531500 ms  DeleteObjects: 5.610500 ms)
+Refreshing native plugins compatible for Editor in 6.66 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 233 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6932 unused Assets / (8.3 MB). Loaded Objects now: 7611.
+Memory consumption went from 192.8 MB to 184.5 MB.
+Total: 19.493500 ms (FindLiveObjects: 1.382400 ms CreateObjectMapping: 2.014500 ms MarkObjects: 9.180900 ms  DeleteObjects: 6.913800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 170249.902674 seconds.
-  path: Assets/Settings/DefaultVolumeProfile.asset
-  artifactKey: Guid(ab09877e2e707104187f6f83e2f62510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/DefaultVolumeProfile.asset using Guid(ab09877e2e707104187f6f83e2f62510) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5f7756282b5916a73b20ab1631af2b7') in 0.0287486 seconds
+  Time since last request: 103.473636 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingWireframe.mat
+  artifactKey: Guid(9875a245ac49007498213638a307faa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingWireframe.mat using Guid(9875a245ac49007498213638a307faa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29c835672a51f695a2a46a91b5ffef91') in 0.5269901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/Nature/SpeedTree8_PBRLit.shadergraph
+  artifactKey: Guid(9920c1f1781549a46ba081a2a15a16ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/Nature/SpeedTree8_PBRLit.shadergraph using Guid(9920c1f1781549a46ba081a2a15a16ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c806e37c3e00cf4589e1a7c40419a47f') in 5.6892928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1689.887185 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat
+  artifactKey: Guid(a97c105638bdf8b4a8650670310a4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat using Guid(a97c105638bdf8b4a8650670310a4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85a029d37d4b5908019ea3a2da1eafcf') in 0.008225 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 476.162168 seconds.
-  path: Assets/Settings/SampleSceneProfile.asset
-  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f741371fc001c2e9aece1e8379cd397a') in 0.0011035 seconds
-Number of updated asset objects reloaded before import = 5Number of asset objects unloaded after import = 0
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat
+  artifactKey: Guid(9dfc825aed78fcd4ba02077103263b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat using Guid(9dfc825aed78fcd4ba02077103263b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95cbbd7a9c6cc2075412d758f33c4e5d') in 0.0077961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.858384 seconds.
-  path: Assets/Settings/SampleSceneProfile.asset
-  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1f7c53e25d9f8709c7602a6b646caaa') in 0.0009003 seconds
-Number of updated asset objects reloaded before import = 4Number of asset objects unloaded after import = 0
+  Time since last request: 0.000054 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpriteMask-Default.mat
+  artifactKey: Guid(15d0c3709176029428a0da2f8cecf0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpriteMask-Default.mat using Guid(15d0c3709176029428a0da2f8cecf0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e4072c37718d0e3897f962b646a5034') in 0.0555297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 121.922429 seconds.
-  path: Assets/Settings/SampleSceneProfile.asset
-  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c92a41e6aaa83f48adf406069927b907') in 0.0008603 seconds
-Number of updated asset objects reloaded before import = 5Number of asset objects unloaded after import = 0
+  Time since last request: 0.211597 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat
+  artifactKey: Guid(594ea882c5a793440b60ff72d896021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat using Guid(594ea882c5a793440b60ff72d896021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1357d2508b5f7d2a76b5889b508a1b97') in 4.5940031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1018.433871 seconds.
-  path: Assets/Prefabs/Chunks/Checkpoint.prefab
-  artifactKey: Guid(2c1470af567be6245839b76df6dcb37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Checkpoint.prefab using Guid(2c1470af567be6245839b76df6dcb37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6cc521139d842025e9f2ffc95ec95916') in 0.4979445 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 289
+  Time since last request: 0.000032 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph
+  artifactKey: Guid(ca2ed216f98028c4dae6c5224a952b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph using Guid(ca2ed216f98028c4dae6c5224a952b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c053d82c87e397eafc8a1e5f76a4f02') in 0.0426607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 63.854055 seconds.
-  path: Assets/Prefabs/Chunks/Lightpost-left.prefab
-  artifactKey: Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Lightpost-left.prefab using Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '242bf2316975ce5881d1ed3aec04a096') in 0.0335192 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 214
+  Time since last request: 0.000043 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph
+  artifactKey: Guid(124c112a6e8f1a54e8b0870e881b56d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph using Guid(124c112a6e8f1a54e8b0870e881b56d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fadd7a78d5d40501313b7e83fa69a9f8') in 0.5510736 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.756352 seconds.
-  path: Assets/Prefabs/Chunks/Lightpost-left.prefab
-  artifactKey: Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Lightpost-left.prefab using Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0eeebcf8a6f9870e98833395aaca7097') in 0.0188965 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 214
+  Time since last request: 0.000031 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/2D/VFXSpriteUnlit.shadergraph
+  artifactKey: Guid(d7288f66e4fb0634c9afef98c31b722a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/2D/VFXSpriteUnlit.shadergraph using Guid(d7288f66e4fb0634c9afef98c31b722a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e720647c1db1b9fd53acdb2ef0411ace') in 0.1909919 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.569104 seconds.
-  path: Assets/Prefabs/Chunks/Lightpost-left.prefab
-  artifactKey: Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Lightpost-left.prefab using Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b63706e24e4d19738ab1dfc19bfa6c0') in 0.0198639 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 214
+  Time since last request: 0.000036 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Light.ttf
+  artifactKey: Guid(2a29e27936eb547458f646f71125b264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Light.ttf using Guid(2a29e27936eb547458f646f71125b264) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f3f2e9ff689411bafad3b45d32f7df9') in 0.0261857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.595871 seconds.
-  path: Assets/Prefabs/Chunks/Lightpost-left.prefab
-  artifactKey: Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Lightpost-left.prefab using Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27c9b1b29511e1dca4da3345bc422a04') in 0.0253824 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 215
+  Time since last request: 0.000031 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BlackItalic.ttf
+  artifactKey: Guid(f95147a9bab9fe649b8070170fa7ebd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BlackItalic.ttf using Guid(f95147a9bab9fe649b8070170fa7ebd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7d28867e8a45e02210c3a74e5bad816') in 0.0149033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.721385 seconds.
-  path: Assets/Prefabs/Chunks/Lightpost-left.prefab
-  artifactKey: Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Lightpost-left.prefab using Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be59e282202f2b4f06b5ac3db00b8a24') in 0.0183655 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 215
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Bold.ttf
+  artifactKey: Guid(3750c318f40cab44a97d3a81beaefeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Bold.ttf using Guid(3750c318f40cab44a97d3a81beaefeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8af9ecc9466c39c3f5c7a018f8f7a72') in 0.0155034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.321276 seconds.
-  path: Assets/Prefabs/Chunks/Lightpost-left.prefab
-  artifactKey: Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Lightpost-left.prefab using Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62cf9c10b033e5ef1726e559a19e6091') in 0.0286204 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 218
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Italic.ttf
+  artifactKey: Guid(c839255fc8f6b4b4d90bf8c1af9f9bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Italic.ttf using Guid(c839255fc8f6b4b4d90bf8c1af9f9bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0432ee0907752345fad9539984a4f823') in 0.0137042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.123797 seconds.
-  path: Assets/Prefabs/Chunks/Lightpost-left.prefab
-  artifactKey: Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Lightpost-left.prefab using Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c234b2c5fdb1ade9f04f0e3a2cb70720') in 0.0200618 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 219
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-ThinItalic.ttf
+  artifactKey: Guid(b2ea3b3f1765e544b9eb5bd1a93a91ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-ThinItalic.ttf using Guid(b2ea3b3f1765e544b9eb5bd1a93a91ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9c949eb652464299002f4ff04f9c6af') in 0.0156877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.159985 seconds.
-  path: Assets/Prefabs/Chunks/Lightpost-left.prefab
-  artifactKey: Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Lightpost-left.prefab using Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12f7dd25d613c294185d7db727b404bd') in 0.0181287 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 219
+  Time since last request: 0.000045 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Standard/Materials/Ground.mat
+  artifactKey: Guid(761d8e1f988ed2345a28312145c79c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Standard/Materials/Ground.mat using Guid(761d8e1f988ed2345a28312145c79c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de5df492ff1f0454425ce89ab916f048') in 0.0138987 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.957045 seconds.
-  path: Assets/Prefabs/Chunks/Lightpost-left.prefab
-  artifactKey: Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Lightpost-left.prefab using Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e4516b4aaefb726f321063dcdab8058') in 0.0183573 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 219
+  Time since last request: 0.000039 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Decal.mat
+  artifactKey: Guid(31d0dcc6f2dd4e4408d18036a2c93862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Decal.mat using Guid(31d0dcc6f2dd4e4408d18036a2c93862) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4b2e228fa21a6013eae79f0531e4170') in 0.0124091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.162686 seconds.
-  path: Assets/Prefabs/Chunks/Lightpost-left.prefab
-  artifactKey: Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Lightpost-left.prefab using Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc683de9fca82a275bd80306b47c99fb') in 0.0175363 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 219
+  Time since last request: 0.000059 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractiveTransparent.shadergraph
+  artifactKey: Guid(5c81372d981403744adbdda4433c9c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractiveTransparent.shadergraph using Guid(5c81372d981403744adbdda4433c9c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6855dcd5c7fb1df45116fa57f24f38d1') in 5.1254896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.757437 seconds.
-  path: Assets/Prefabs/Chunks/Lightpost-left.prefab
-  artifactKey: Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Lightpost-left.prefab using Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa5aa399f230b6656fff658eb6e10773') in 0.0186588 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 219
+  Time since last request: 0.000041 seconds.
+  path: Assets/Imported Assets/skybox DEMO/textures/4096x2048/Materials/1.mat
+  artifactKey: Guid(6e874faa8769886419d3c760ce62e9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/skybox DEMO/textures/4096x2048/Materials/1.mat using Guid(6e874faa8769886419d3c760ce62e9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7d64510d09599ca3465e1c8497627d6') in 0.0144092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.194950 seconds.
-  path: Assets/Prefabs/Chunks/Lightpost-left.prefab
-  artifactKey: Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Lightpost-left.prefab using Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8f01f2329f34dc28732b3411b2a16fd') in 0.0210026 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 219
+  Time since last request: 0.000051 seconds.
+  path: Assets/Imported Assets/skybox DEMO/textures/4096x2048/Materials/10.mat
+  artifactKey: Guid(dd839fff0f8954d47a80efe6a75ab648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/skybox DEMO/textures/4096x2048/Materials/10.mat using Guid(dd839fff0f8954d47a80efe6a75ab648) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f719341645d7c5264cc9d66a918d827') in 0.0567087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.018383 seconds.
-  path: Assets/Prefabs/Chunks/Lightpost-left.prefab
-  artifactKey: Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Lightpost-left.prefab using Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21637026a631b3391962995ae7a14e84') in 0.0219381 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 219
+  Time since last request: 0.000042 seconds.
+  path: Assets/Imported Assets/skybox DEMO/textures/4096x2048/Materials/9.mat
+  artifactKey: Guid(7f185cfbac2290349adcf2d4858ce706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/skybox DEMO/textures/4096x2048/Materials/9.mat using Guid(7f185cfbac2290349adcf2d4858ce706) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '889f0fad9638dfd4af7947f918f9c84e') in 0.0506757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.108998 seconds.
-  path: Assets/Prefabs/Chunks/Lightpost-left.prefab
-  artifactKey: Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Lightpost-left.prefab using Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d195b8a8e22344c8c5e701bed7757c1') in 0.0179695 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 219
+  Time since last request: 0.000032 seconds.
+  path: Assets/Imported Assets/skybox DEMO/textures/2048x1024/Materials/19.mat
+  artifactKey: Guid(a585043776936c649bb24de0254b4f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/skybox DEMO/textures/2048x1024/Materials/19.mat using Guid(a585043776936c649bb24de0254b4f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f91c30116a336f968bd60b6c36631ca') in 0.0214808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.463808 seconds.
-  path: Assets/Prefabs/Chunks/Lightpost-left.prefab
-  artifactKey: Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Lightpost-left.prefab using Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b55b2dc5f724d0a1faf150651a6cee72') in 0.0184995 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 225
+  Time since last request: 0.000034 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat
+  artifactKey: Guid(31321ba15b8f8eb4c954353edc038b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat using Guid(31321ba15b8f8eb4c954353edc038b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ed7eb087cb755bca6c216fad0f2ecf7') in 0.0128298 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.702328 seconds.
-  path: Assets/Prefabs/Chunks/Lightpost-left.prefab
-  artifactKey: Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Lightpost-left.prefab using Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd86b540afe426e8cb668ea6df6c0097a') in 0.0184546 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 225
+  Time since last request: 0.000058 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Fonts/PerfectDOSVGA437.ttf
+  artifactKey: Guid(74a5091d8707f334b9a5c31ef71a64ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Fonts/PerfectDOSVGA437.ttf using Guid(74a5091d8707f334b9a5c31ef71a64ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2d0fdc5e367da3b4190db9b0fe2a6e2') in 0.0165393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.920094 seconds.
-  path: Assets/Prefabs/Chunks/Lightpost-left.prefab
-  artifactKey: Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Lightpost-left.prefab using Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e502668b811bdf5f341af9527386087b') in 0.0213361 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 225
+  Time since last request: 0.000033 seconds.
+  path: Assets/Imported Assets/skybox DEMO/textures/2048x1024/Materials/17.mat
+  artifactKey: Guid(531ace4ff4754c24d880fb946ed5ffe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/skybox DEMO/textures/2048x1024/Materials/17.mat using Guid(531ace4ff4754c24d880fb946ed5ffe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12e65c2aaacf47963e214160daef78e2') in 0.0244496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.989598 seconds.
-  path: Assets/Prefabs/Chunks/Lightpost-left.prefab
-  artifactKey: Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Lightpost-left.prefab using Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe261022f1dd7fd2ebc8f3f719dac510') in 0.0193464 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 225
+  Time since last request: 0.000041 seconds.
+  path: Assets/Imported Assets/skybox DEMO/textures/2048x1024/Materials/16.mat
+  artifactKey: Guid(28523efe8f698194a9566c983c13ff6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/skybox DEMO/textures/2048x1024/Materials/16.mat using Guid(28523efe8f698194a9566c983c13ff6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75861d27d2a75f0ab2b42c3faac08391') in 0.020663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.449445 seconds.
-  path: Assets/Prefabs/Chunks/Lightpost-left.prefab
-  artifactKey: Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Lightpost-left.prefab using Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2e03f09715aad4f727a3b7fa6f10ed8') in 0.019829 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 225
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.561978 seconds.
-  path: Assets/Prefabs/Chunks/Lightpost-left.prefab
-  artifactKey: Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Lightpost-left.prefab using Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fdd496b8d7f4489e4d4eca7754e0da6f') in 0.0184477 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 225
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.362531 seconds.
-  path: Assets/Prefabs/Chunks/Lightpost-left.prefab
-  artifactKey: Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Lightpost-left.prefab using Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d436a4f69a87df653f647d406f817fb') in 0.0187266 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 225
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.906598 seconds.
-  path: Assets/Prefabs/Chunks/Lightpost-left.prefab
-  artifactKey: Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Lightpost-left.prefab using Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72e90066207e3cace5ac3d9ef215597b') in 0.0193697 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 225
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.085097 seconds.
-  path: Assets/Prefabs/Chunks/Lightpost-left.prefab
-  artifactKey: Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Lightpost-left.prefab using Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c04175d009af098667e32fbb371a57c') in 0.021169 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 225
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.025427 seconds.
-  path: Assets/Prefabs/Chunks/Lightpost-left.prefab
-  artifactKey: Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Lightpost-left.prefab using Guid(8fe85a5c122df9d46ac69f4b2cc9f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4981f80d4fc05b826c9009d075114980') in 0.0205146 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 225
+  Time since last request: 0.000039 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractive.shadergraph
+  artifactKey: Guid(0e9d5a909a1f7e84882a534d0d11e49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractive.shadergraph using Guid(0e9d5a909a1f7e84882a534d0d11e49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc7689ae04e0567bb65cf599c3a7e025') in 3.7395387 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
