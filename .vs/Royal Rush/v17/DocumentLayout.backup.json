@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "D:\\Unity projects\\Royal Rush\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A84FFD5A-CC1F-691D-C077-1DB22401714B}|Assembly-CSharp.csproj|D:\\Unity projects\\Royal Rush\\assets\\scripts\\propgen\\levelgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A84FFD5A-CC1F-691D-C077-1DB22401714B}|Assembly-CSharp.csproj|d:\\unity projects\\royal rush\\assets\\scripts\\propgen\\levelgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A84FFD5A-CC1F-691D-C077-1DB22401714B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\propgen\\levelgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A84FFD5A-CC1F-691D-C077-1DB22401714B}|Assembly-CSharp.csproj|d:\\unity projects\\royal rush\\assets\\scripts\\managers\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A84FFD5A-CC1F-691D-C077-1DB22401714B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A84FFD5A-CC1F-691D-C077-1DB22401714B}|Assembly-CSharp.csproj|d:\\unity projects\\royal rush\\assets\\scripts\\propgen\\chunk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A84FFD5A-CC1F-691D-C077-1DB22401714B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\propgen\\chunk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A84FFD5A-CC1F-691D-C077-1DB22401714B}|Assembly-CSharp.csproj|D:\\Unity projects\\Royal Rush\\assets\\scripts\\rock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A84FFD5A-CC1F-691D-C077-1DB22401714B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A84FFD5A-CC1F-691D-C077-1DB22401714B}|Assembly-CSharp.csproj|D:\\Unity projects\\Royal Rush\\assets\\scripts\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A84FFD5A-CC1F-691D-C077-1DB22401714B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A84FFD5A-CC1F-691D-C077-1DB22401714B}|Assembly-CSharp.csproj|D:\\Unity projects\\Royal Rush\\assets\\scripts\\propgen\\chunk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A84FFD5A-CC1F-691D-C077-1DB22401714B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\propgen\\chunk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A84FFD5A-CC1F-691D-C077-1DB22401714B}|Assembly-CSharp.csproj|D:\\Unity projects\\Royal Rush\\assets\\scripts\\propgen\\checkpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A84FFD5A-CC1F-691D-C077-1DB22401714B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\propgen\\checkpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,47 +40,59 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\PropGen\\LevelGenerator.cs",
               "ToolTip": "D:\\Unity projects\\Royal Rush\\Assets\\Scripts\\PropGen\\LevelGenerator.cs",
               "RelativeToolTip": "Assets\\Scripts\\PropGen\\LevelGenerator.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAIAwwGIAAABOAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T17:05:54.756Z",
+              "WhenOpened": "2025-07-06T12:03:09.857Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Chunk.cs",
               "DocumentMoniker": "D:\\Unity projects\\Royal Rush\\Assets\\Scripts\\PropGen\\Chunk.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PropGen\\Chunk.cs",
               "ToolTip": "D:\\Unity projects\\Royal Rush\\Assets\\Scripts\\PropGen\\Chunk.cs",
               "RelativeToolTip": "Assets\\Scripts\\PropGen\\Chunk.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T17:05:32.3Z"
+              "WhenOpened": "2025-07-06T12:02:58.528Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Rock.cs",
+              "DocumentMoniker": "D:\\Unity projects\\Royal Rush\\Assets\\Scripts\\Rock.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Rock.cs",
+              "ToolTip": "D:\\Unity projects\\Royal Rush\\Assets\\Scripts\\Rock.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Rock.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T11:48:45.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "GameManager.cs",
               "DocumentMoniker": "D:\\Unity projects\\Royal Rush\\Assets\\Scripts\\Managers\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\GameManager.cs",
               "ToolTip": "D:\\Unity projects\\Royal Rush\\Assets\\Scripts\\Managers\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Managers\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwC4AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T16:42:05.18Z"
+              "WhenOpened": "2025-06-25T15:29:30.662Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ScoreManager.cs",
-              "DocumentMoniker": "D:\\Unity projects\\Royal Rush\\Assets\\Scripts\\Managers\\ScoreManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\ScoreManager.cs",
-              "ToolTip": "D:\\Unity projects\\Royal Rush\\Assets\\Scripts\\Managers\\ScoreManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Managers\\ScoreManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Checkpoint.cs",
+              "DocumentMoniker": "D:\\Unity projects\\Royal Rush\\Assets\\Scripts\\PropGen\\Checkpoint.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PropGen\\Checkpoint.cs",
+              "ToolTip": "D:\\Unity projects\\Royal Rush\\Assets\\Scripts\\PropGen\\Checkpoint.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PropGen\\Checkpoint.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T16:46:35.621Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T15:29:08.91Z"
             }
           ]
         }
