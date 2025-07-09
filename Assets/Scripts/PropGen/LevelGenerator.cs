@@ -24,8 +24,6 @@ public class LevelGenerator : MonoBehaviour
     [SerializeField] float maxMoveSpeed = 20f;
     [SerializeField] float minGravity = -22f;
     [SerializeField] float maxGravity = -2f;
-    [SerializeField] float minFOV = 0f;
-    [SerializeField] float maxFOV = 120f;
 
     float CameraFOV = 60f;
     int ChunksSpawned = 0;

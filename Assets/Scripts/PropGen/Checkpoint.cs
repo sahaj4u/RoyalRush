@@ -4,11 +4,14 @@ using UnityEngine;
 public class Checkpoint : MonoBehaviour
 {
      GameManager gameManager;
+    ObstacleSpawner obstacleSpawner;
     [SerializeField] float TimeToAdd = 5f;
+    [SerializeField] float obstacleDecreaseTimeAmount = 0.2f;
     const string PlayerTag = "Player";
 
-    private void Start()
+     void Start()
     {
+        obstacleSpawner = FindFirstObjectByType<ObstacleSpawner>();
     }
     void OnTriggerEnter(Collider other)
     {
@@ -16,6 +19,7 @@ public class Checkpoint : MonoBehaviour
         {
             gameManager = FindFirstObjectByType<GameManager>();
             gameManager.AddTime(TimeToAdd);
+            obstacleSpawner.DecreaseSpawntime(-obstacleDecreaseTimeAmount);
         }
     }
 }
