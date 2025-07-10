@@ -38,15 +38,16 @@ public class ObstacleSpawner : MonoBehaviour
 
      GameObject FindObstacleToSpawn()
     {
-        int obstaclePrefabArrayID = 0;
-        float RandomNumber = 0;
-        while (RandomNumber != 1)
+        int obstacleArrayID = 0;
+        bool foundObstacleToSpawn = false;
+        while (!foundObstacleToSpawn) 
         {
-              obstaclePrefabArrayID = Random.Range(0, obstaclePrefabs.Length);
-              RandomNumber = Random.Range(1, ObstaclesSpawnchances[obstaclePrefabArrayID]);
+             obstacleArrayID = Random.Range(0,obstaclePrefabs.Length);
+            if(Random.value < ObstaclesSpawnchances[obstacleArrayID])
+            {
+                foundObstacleToSpawn = true;
+            }
         }
-        GameObject obstaclePrefab = obstaclePrefabs[obstaclePrefabArrayID];
-        
-        return obstaclePrefab;
+        return obstaclePrefabs[obstacleArrayID];
     }
 }

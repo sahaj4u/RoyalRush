@@ -3,32 +3,12 @@
   "WorkspaceRootPath": "D:\\Unity projects\\Royal Rush\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A84FFD5A-CC1F-691D-C077-1DB22401714B}|Assembly-CSharp.csproj|d:\\unity projects\\royal rush\\assets\\scripts\\propgen\\levelgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A84FFD5A-CC1F-691D-C077-1DB22401714B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\propgen\\levelgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A84FFD5A-CC1F-691D-C077-1DB22401714B}|Assembly-CSharp.csproj|d:\\unity projects\\royal rush\\assets\\scripts\\propgen\\obstaclespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A84FFD5A-CC1F-691D-C077-1DB22401714B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\propgen\\obstaclespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A84FFD5A-CC1F-691D-C077-1DB22401714B}|Assembly-CSharp.csproj|d:\\unity projects\\royal rush\\assets\\scripts\\propgen\\checkpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A84FFD5A-CC1F-691D-C077-1DB22401714B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\propgen\\checkpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A84FFD5A-CC1F-691D-C077-1DB22401714B}|Assembly-CSharp.csproj|D:\\Unity projects\\Royal Rush\\assets\\scripts\\player\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A84FFD5A-CC1F-691D-C077-1DB22401714B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A84FFD5A-CC1F-691D-C077-1DB22401714B}|Assembly-CSharp.csproj|D:\\Unity projects\\Royal Rush\\assets\\scripts\\propgen\\obstaclespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A84FFD5A-CC1F-691D-C077-1DB22401714B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\propgen\\obstaclespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A84FFD5A-CC1F-691D-C077-1DB22401714B}|Assembly-CSharp.csproj|D:\\Unity projects\\Royal Rush\\assets\\scripts\\player\\playercollisionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A84FFD5A-CC1F-691D-C077-1DB22401714B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercollisionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A84FFD5A-CC1F-691D-C077-1DB22401714B}|Assembly-CSharp.csproj|D:\\Unity projects\\Royal Rush\\assets\\scripts\\propgen\\chunk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A84FFD5A-CC1F-691D-C077-1DB22401714B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\propgen\\chunk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A84FFD5A-CC1F-691D-C077-1DB22401714B}|Assembly-CSharp.csproj|D:\\Unity projects\\Royal Rush\\assets\\scripts\\rock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A84FFD5A-CC1F-691D-C077-1DB22401714B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,21 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LevelGenerator.cs",
-              "DocumentMoniker": "D:\\Unity projects\\Royal Rush\\Assets\\Scripts\\PropGen\\LevelGenerator.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PropGen\\LevelGenerator.cs",
-              "ToolTip": "D:\\Unity projects\\Royal Rush\\Assets\\Scripts\\PropGen\\LevelGenerator.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PropGen\\LevelGenerator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T15:44:58.782Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -61,70 +28,23 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\PropGen\\Checkpoint.cs",
               "ToolTip": "D:\\Unity projects\\Royal Rush\\Assets\\Scripts\\PropGen\\Checkpoint.cs",
               "RelativeToolTip": "Assets\\Scripts\\PropGen\\Checkpoint.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAgwAsAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T15:22:45.009Z",
+              "WhenOpened": "2025-07-10T15:58:01.771Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ObstacleSpawner.cs",
               "DocumentMoniker": "D:\\Unity projects\\Royal Rush\\Assets\\Scripts\\PropGen\\ObstacleSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PropGen\\ObstacleSpawner.cs",
               "ToolTip": "D:\\Unity projects\\Royal Rush\\Assets\\Scripts\\PropGen\\ObstacleSpawner.cs",
               "RelativeToolTip": "Assets\\Scripts\\PropGen\\ObstacleSpawner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwCsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T15:21:43.105Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Chunk.cs",
-              "DocumentMoniker": "D:\\Unity projects\\Royal Rush\\Assets\\Scripts\\PropGen\\Chunk.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PropGen\\Chunk.cs",
-              "ToolTip": "D:\\Unity projects\\Royal Rush\\Assets\\Scripts\\PropGen\\Chunk.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PropGen\\Chunk.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T14:57:08.959Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PlayerCollisionHandler.cs",
-              "DocumentMoniker": "D:\\Unity projects\\Royal Rush\\Assets\\Scripts\\Player\\PlayerCollisionHandler.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerCollisionHandler.cs",
-              "ToolTip": "D:\\Unity projects\\Royal Rush\\Assets\\Scripts\\Player\\PlayerCollisionHandler.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerCollisionHandler.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T14:56:54.522Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CameraController.cs",
-              "DocumentMoniker": "D:\\Unity projects\\Royal Rush\\Assets\\Scripts\\Player\\CameraController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\CameraController.cs",
-              "ToolTip": "D:\\Unity projects\\Royal Rush\\Assets\\Scripts\\Player\\CameraController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\CameraController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T14:56:48.894Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Rock.cs",
-              "DocumentMoniker": "D:\\Unity projects\\Royal Rush\\Assets\\Scripts\\Rock.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Rock.cs",
-              "ToolTip": "D:\\Unity projects\\Royal Rush\\Assets\\Scripts\\Rock.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Rock.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAiwBwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T11:48:45.397Z"
+              "WhenOpened": "2025-07-08T15:21:43.105Z",
+              "EditorCaption": ""
             }
           ]
         }

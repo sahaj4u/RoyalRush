@@ -9,7 +9,7 @@ public class Checkpoint : MonoBehaviour
     [SerializeField] float obstacleDecreaseTimeAmount = 0.2f;
     const string PlayerTag = "Player";
 
-     void Start()
+     void Awake()
     {
         obstacleSpawner = FindFirstObjectByType<ObstacleSpawner>();
     }

@@ -1,5 +1,6 @@
 
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Chunk : MonoBehaviour
@@ -12,6 +13,7 @@ public class Chunk : MonoBehaviour
     [SerializeField] float appleSpawnChance = 0.05f;
     [SerializeField] float coinSpawnchance = 0.5f;
     [SerializeField] float coinSeperationLength = 2f;
+    [SerializeField] float[] FenceAmountchances;
 
     [SerializeField] float[] lanes = { -2.5f, 0f, 2.5f };
 
@@ -34,8 +36,7 @@ public class Chunk : MonoBehaviour
 
     void SpawnFences()
     {
-        
-        int fencesToSpawn = Random.Range(0, lanes.Length);
+        int fencesToSpawn = FindAmountOfFencesToSpawn();
 
         for (int i = 0; i < fencesToSpawn; i++)
         {
@@ -47,7 +48,22 @@ public class Chunk : MonoBehaviour
         }
     }
 
-     int SelectLane()
+      public int FindAmountOfFencesToSpawn()
+    {
+        int AmountOfFencesToSpawn = Random.Range(0, lanes.Length);
+        bool FoundFenceNumber = false;
+        while (!FoundFenceNumber)
+        {               
+            AmountOfFencesToSpawn = Random.Range(0, lanes.Length);
+            if (Random.value < FenceAmountchances[AmountOfFencesToSpawn])
+            {
+                FoundFenceNumber = true;
+            }
+        }
+        return AmountOfFencesToSpawn;
+    }
+
+    int SelectLane()
     {
         int RandomLaneIndex = Random.Range(0, availableLanes.Count);
         int selectedLane = availableLanes[RandomLaneIndex];

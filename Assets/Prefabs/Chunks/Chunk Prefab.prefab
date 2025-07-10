@@ -88,6 +88,10 @@ MonoBehaviour:
   appleSpawnChance: 0.3
   coinSpawnchance: 0.5
   coinSeperationLength: 2
+  FenceAmountchances:
+  - 0
+  - 1
+  - 0
   lanes:
   - -2.5
   - 0

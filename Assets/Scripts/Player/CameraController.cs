@@ -28,7 +28,6 @@ public class CameraController : MonoBehaviour
 
     IEnumerator ChangeFOVRoutine(float speedAmount)
     {
-        Debug.Log("Changed FOV");
         float startFOV = cinemachineCamera.Lens.FieldOfView;
         float targetFOV = cinemachineCamera.Lens.FieldOfView + (speedAmount * zoomSpeed);
         targetFOV = Mathf.Clamp(targetFOV, minFOV, maxFOV);
