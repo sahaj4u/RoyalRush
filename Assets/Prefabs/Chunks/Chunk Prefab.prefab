@@ -89,9 +89,9 @@ MonoBehaviour:
   coinSpawnchance: 0.5
   coinSeperationLength: 2
   FenceAmountchances:
-  - 0
   - 1
-  - 0
+  - 1
+  - 0.5
   lanes:
   - -2.5
   - 0

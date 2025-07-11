@@ -19,7 +19,7 @@ public class ObstacleSpawner : MonoBehaviour
             obstaclesSpawnTime = MinObstacleSpawnTime;
         }
     }
-   
+
     void Start()
     {
         StartCoroutine(SpawnObstaclesRoutine());
@@ -36,14 +36,14 @@ public class ObstacleSpawner : MonoBehaviour
 
     }
 
-     GameObject FindObstacleToSpawn()
+    GameObject FindObstacleToSpawn()
     {
         int obstacleArrayID = 0;
         bool foundObstacleToSpawn = false;
-        while (!foundObstacleToSpawn) 
+        while (!foundObstacleToSpawn)
         {
-             obstacleArrayID = Random.Range(0,obstaclePrefabs.Length);
-            if(Random.value < ObstaclesSpawnchances[obstacleArrayID])
+            obstacleArrayID = Random.Range(0, obstaclePrefabs.Length);
+            if (Random.value < ObstaclesSpawnchances[obstacleArrayID])
             {
                 foundObstacleToSpawn = true;
             }
