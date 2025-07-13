@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Coin : Pickup
 {
-    [SerializeField] float pointsToGive = 100f;
+    [SerializeField] int pointsToGive = 100;
 
     ScoreManager scoreManager;
 
