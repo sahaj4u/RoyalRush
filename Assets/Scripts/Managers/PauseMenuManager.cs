@@ -4,7 +4,12 @@ using UnityEngine.SceneManagement;
 public class PauseMenuManager : MonoBehaviour
 {
     public float TimeScale;
-  public void OpenpauseMenu()
+
+    private void Awake()
+    {
+        Time.timeScale = 1f;
+    }
+    public void OpenpauseMenu()
     {
         TimeScale = Time.timeScale;
         Time.timeScale = 0f;
